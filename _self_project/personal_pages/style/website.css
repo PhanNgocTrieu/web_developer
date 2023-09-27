@@ -1,0 +1,21 @@
+body {
+    /* background-color: aqua; */
+    height: 100vh;
+    /* background-image: linear-gradient( to bottom, #000046, #1CB5E0); */
+    background-image: linear-gradient( to right, #D8B5FF   , #1EAE98);
+    /* background-image: linear-gradient( to right, #3E5151   , #DECBA4); */
+}
+
+
+
+@media (max-width: 767px) {
+    /* body {
+        background-image: linear-gradient( to bottom, #000046, #1CB5E0);
+    } */
+    .header-content {
+        /* justify-items: center; */
+        /* align-items: center; */
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}

@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.2"
-  }
+  },
+  "name": "personal_pages",
+  "version": "1.0.0",
+  "description": "This page for creating a self-website informations",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trieu John",
+  "license": "ISC"
 }
