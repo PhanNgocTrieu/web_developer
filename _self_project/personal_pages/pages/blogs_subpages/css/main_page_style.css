@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient( to bottom, #132043, #DECBA4);
+}
+
+/* Header */
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.self-name {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link-references {
+    /* float: left; */
+    padding-right: 10px;
+}
+
+@media (max-width: 767px) {
+    /* body {
+        background-image: linear-gradient( to bottom, #000046, #1CB5E0);
+    } */
+    .header-content {
+        /* justify-items: center; */
+        /* align-items: center; */
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
+/* End of Header */
+
+footer {
+    background-color: #D8B5FF;
+}
+
+
+@media (max-width: 767px) {
+    /* body {
+        background-image: linear-gradient( to bottom, #000046, #1CB5E0);
+    } */
+    .header-content {
+        /* justify-items: center; */
+        /* align-items: center; */
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
