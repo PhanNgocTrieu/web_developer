@@ -1,23 +1,19 @@
-.main-container {
-    display: flex;
-    /* margin: auto; */
-    position: relative;
-    /* padding: 30px; */
-    width: 100%;
-    height: 100%;
-    /* Center with vertical */
-    align-items: center;
-    /* Center with horizontal */
-    justify-content: center;
-    /* margin-left: 800px; */
-}
-
 .self-intro-tags {
     padding: 20px;
 }
 
-.main-context {
-    width: 800px;
-    align-items: center;
-    justify-items: center;
+.about-me-container {
+    display: flex;
+    position: absolute;
+    border: 3px solid #fff;
+    padding: 20px;
+    height: 500px;
+}
+
+.inside-about-me-container {
+    flex: 1;
+    float: left;
+    align-self: center;
+    border: 2px solid red;
+    width: 100;
 }
