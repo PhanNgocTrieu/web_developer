@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    background-color:white;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 80px;
+    height: 100vh;
+}
+
+.body-section {
+    border: solid 2px;
+    border-radius: 8px;
+    background-color: aqua;
+    width: 600px;
+    height: 540px;
+    box-shadow: 2cm;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
