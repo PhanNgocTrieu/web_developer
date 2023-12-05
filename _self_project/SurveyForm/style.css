@@ -1,22 +1,154 @@
+/* * { */
+    /* Text center horizontal */
+    /* text-align: center; */
+/* } */
+
 body {
     display: flex;
-    background-color:white;
-    align-content: center;
     justify-content: center;
     justify-items: center;
-    margin-top: 80px;
+    align-items: center;
     height: 100vh;
 }
 
-.body-section {
-    border: solid 2px;
+.survey-box {
+    /* border: solid 2px; */
+    /* background-color: aqua; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(166,127,200,0.2561956667432598) 0%, rgba(0,212,255,1) 100%);
+    display: block;
+    width: 840px;
+    /* height: 50%; px; */
+    /* Border - shadow */
+    /* box-shadow: px 5px 5px black; */
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    /* Set border - radius */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    /* margin: 100px 30px 30px 30px; */
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.body-section-title {
+    font-family: 'Lexend Deca', 'Sans-serif';
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    /* Change text color here */
+    /* color: blue; */
+    font-style: italic;
+    /* Need to comment */
+    background-color: aquamarine;
     border-radius: 8px;
-    background-color: aqua;
-    width: 600px;
-    height: 540px;
-    box-shadow: 2cm;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+
+.body-section {
+    display: flex;
+    text-align:justify;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.content-introduction-ctn {
+    /* border: solid 2px; */
+    border-radius: 8px;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 90%;
+    /* text-align: center; */
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-style: italic;
+    color: lightgreen;
+    /* padding: 10px; */
+    position: inherit;
+    padding: 20px;
+    margin: 0px;
+    outline: 2px deeppink dashed;
+}
+
+.btn-ctn {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
+
+    align-items: self-end;
+    /* align-self: flex-end; */
+    margin-right: 10px;
+    outline: 2px deeppink dashed;
+}
+
+.original-button {
+    display: flex;
+    /* Center vertical */
+    align-items: center;
+    /* Center horizontal */
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #dc8c4b 100%); */
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    transition: 0.5s;
+}
+
+
+.button-size {
+    /* height: 80px; */
+    /* height: 40px; */
+    height: 40px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: bold;
+    /* margin: 120px 10px 10px; */
+}
+
+.border-btn {
+    border: solid #494a3e ;
+    border-radius: 16px;
+}
+
+.original-button:hover {
+    opacity: .75;
+}
+
+@media screen and (max-width: 480px) {
+    /* .body-section { */
+        /* background-color: rebeccapurple; */
+    /* } */
+
+    .body-section-title {
+        font-family: 'Lexend Deca', 'Sans-serif';
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* .content-introduction-ctn { */
+        /* margin-bottom: 50px; */
+    /* } */
 }
