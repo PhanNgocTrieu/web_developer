@@ -44,10 +44,11 @@ body {
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
     /* Change text color here */
-    /* color: blue; */
-    font-style: italic;
+    color: white !important;
+    text-shadow: #5c0067 2px 2px 2px;
+    /* font-style: italic; */
     /* Need to comment */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     border-radius: 8px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -120,7 +121,7 @@ body {
     /* height: 80px; */
     /* height: 40px; */
     height: 40px;
-    width: 240px;
+    width: 120px;
     font-size: 18px;
     font-weight: bold;
     /* margin: 120px 10px 10px; */
